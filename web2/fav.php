@@ -9,13 +9,13 @@
                     echo "<br>You really enjoy ", ($_POST['dish']);
                     echo "<br>- especially with a nice ", ($_POST['color']), " wine";
                 } else{
-                    echo "Something went wrong. It seems that you've forgot to put your favorite dish. :(";
+                    echo "Something went wrong. It seems that you've forgot to put your favorite dish.";
                 }
             } else{
-                echo "Something went wrong. It seems that you've forgot to choose the color of the wine. :(";
+                echo "Something went wrong. It seems that you've forgot to choose the color of the wine.";
             }
         } else { 
-            echo "Something went wrong. It seems that you've forgot to put your name. :(";
+            echo "Something went wrong. It seems that you've forgot to put your name.";
         }
     ?>
 </body>
