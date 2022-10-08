@@ -1,5 +1,9 @@
 <?php
-
+    if(isset($_COOKIE['views'])){
+        $count = $_COOKIE['views'];
+        $num_visits ++;
+    }
+    setcookie('views', $num_visits);
 ?>
 
 <h1>Hello</h1>
